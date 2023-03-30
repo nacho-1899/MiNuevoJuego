@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Bubbles&display=swap');
+body {
+    background-image: url(/img/pokemon_x_and_y_battle_background_11_by_phoenixoflight92_d843okx-fullview.jpg);
+    /*font-family: "Poppins", sans-serif;*/
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    background-size: 200%;
+  }
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+    
+}
+#elegir-mascota{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tajeta-mascota{
+    width: 150px;
+    height: 150px;
+    background-color: #11468F;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color:white;
+    font-family:fantasy
+}
+.tarjetas{
+    display: flex;
+}
+.subtitulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color:white;
+    
+    
+    
+
+}
+.titulo-mascotas{
+    color: white;
+}
+
+.tajeta-mascota img{
+    width: 75px;
+}
+#boton-mascota{
+    font-family: 'Rubik Bubbles', cursive;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color:black;
+    margin: 30px 20px 10px 10px;
+
+
+}
+#elegir-ataque{
+   
+    flex-direction: column;
+    align-items: center;
+
+}
+.ataques{
+    /*background-color:transparent;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-color:black;
+    border-radius: 10px;
+    height: 55px;
+    width: 55px;*/
+    background-color: #11468F;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border-color: transparent;
+  width: 100px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 5px;
+    
+}
+.tipos-ataques{
+    display: flex;
+  
+}
+
+input{
+    display: none;
+}
+#mensajes{
+    height: 100px;
+    width: 280px;
+    border: red;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-block-end: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+}
+#boton-reinicio{
+    border-radius: 30px;
+    background-color: green;
+}
+.ataque{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    align-items: stretch;
+    
+}
+@media (max-width: 360px){
+    .tarjetas{
+        flex-direction: column;
+    }
+}
+.info1{
+    width: 90%; 
+    color: white;
+    margin-right: 6px;
+    background-color: #11468F;
+    text-align: center;
+    border-radius: 20px; 
+}
+.info2{ 
+    width: 90%;
+    color: white;
+    margin-right: 6px;
+    background-color: #11468F;
+    text-align: center;
+    border-radius: 20px; 
+}
+ 
